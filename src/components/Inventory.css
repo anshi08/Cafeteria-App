@@ -1,0 +1,79 @@
+.inventory-container {
+    width: 100%;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .inventory-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tabs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .inventory-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Assuming you have 7 cards in one row */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+    overflow-x: hidden;
+  }
+  
+  .inventory-detail {
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .quantity-control label {
+    margin-right: 10px;
+  }
+  
+  .quantity-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-input input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .quantity-buttons button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .quantity-buttons button:nth-child(2) {
+    background-color: #f44336; /* Red */
+  }
+  
