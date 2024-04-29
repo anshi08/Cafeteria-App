@@ -40,7 +40,7 @@ export class RealtimeData extends React.Component{
                         </thead>
 
                         <tbody>
-                            {this.state.tableData.map((rowd,index)=>{
+                            {this.state.tableData.map((row,index)=>{
                                 return(
                                 <tr>
                                     <td>{index}</td>
